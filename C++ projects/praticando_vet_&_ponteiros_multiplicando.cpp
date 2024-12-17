@@ -8,14 +8,14 @@ int main()
     vector <int> arro{1,2,3,4,5,6};
     vector <int> arrn;
 
-    int *p=&arro[0];
+    int *p= &arro[0];
     int mult;
 
     for(p;p < &arro[arro.size()];p++){
         mult = *p * 2;
         arrn.push_back(mult);
         }
-        //impressão dos vetores
+        //impressï¿½o dos vetores
         p=&arro[0];
 
         cout << "Vetor 1:" << endl;
